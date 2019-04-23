@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Adding new deals",
+        "description": "",
+        "id": "crm-new-deals;adding-new-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47881518545,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user in on crm login page",
+            "match": {
+              "location": "DealsStepDefinition.user_in_on_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5416859450,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is CRM Software",
+            "match": {
+              "location": "DealsStepDefinition.title_of_login_page_is_CRM_Software()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 263860004,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters crm username and password",
+            "match": {
+              "location": "DealsStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sasi08",
+                  "sasirevo"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48171753454,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on page login button",
+            "match": {
+              "location": "DealsStepDefinition.user_clicks_on_page_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18148938,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is directed to home page",
+            "match": {
+              "location": "DealsStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20956516009,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user moves to new deals",
+            "match": {
+              "location": "DealsStepDefinition.user_moves_to_new_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14546501643,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters new deal details",
+            "match": {
+              "location": "DealsStepDefinition.user_enters_new_deal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc",
+                  "1000",
+                  "50",
+                  "20"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 528127163,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user close the browser",
+            "match": {
+              "location": "DealsStepDefinition.user_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "CRM new deals",
+    "description": "",
+    "id": "crm-new-deals",
+    "keyword": "Feature",
+    "uri": "C:/Users/Shashi/eclipse-workspace/ZzzRevisionCucumber/src/main/java/Feature/deals.feature"
+  }
+]

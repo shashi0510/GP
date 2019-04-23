@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]">
+  <test thread-count="5" name="Test-Ng(failed)">
+    <parameter name="sUsername" value="shashithegame005@gmail.com"/>
+    <parameter name="sPassword" value="shashigame"/>
+    <classes>
+      <class name="testNg.FtestNg">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNg.FtestNg -->
+    </classes>
+  </test> <!-- Test-Ng(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

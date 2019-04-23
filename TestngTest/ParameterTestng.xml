@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="ToolsQA">
+
+	<parameter name="sUser" value="shashi05shashi@gmail.com"/>
+	<parameter name="sPass" value="s9903936096"/>
+
+		<classes>
+			<class name="com.testNg.NaukTest" />
+		</classes>
+
+    </test>
+</suite>

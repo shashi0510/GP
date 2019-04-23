@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite">
+<test name="Test-Ng">
+<groups>
+<define name="All">
+<include name="Car"/>
+<include name="Byk"/>
+</define>
+<run>
+<include name="All"/>
+</run>
+</groups>
+<classes>
+<class name="com.testNg.GroupsTest"/>
+</classes>
+</test>
+</suite>

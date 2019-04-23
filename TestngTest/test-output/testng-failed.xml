@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ToolsQA(failed)">
+    <parameter name="sUser" value="shashi05shashi@gmail.com"/>
+    <parameter name="sPass" value="s9903936096"/>
+    <classes>
+      <class name="com.testNg.NaukTest">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testNg.NaukTest -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->

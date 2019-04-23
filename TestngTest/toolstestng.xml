@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+    <test name="ToolsQA">
+
+	<parameter name="sUsername" value="shashithegame005@gmail.com"/>
+
+	<parameter name="sPassword" value="shashigame"/>
+
+		<classes>
+
+		    <class name="com.testNg.ToolsqaTest" />
+
+		</classes>
+
+    </test>
+
+</suite>

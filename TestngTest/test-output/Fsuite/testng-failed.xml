@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Fsuite]">
+  <test thread-count="5" name="Ftest(failed)">
+    <classes>
+      <class name="testNg.FtestNg">
+        <methods>
+          <include name="f"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNg.FtestNg -->
+    </classes>
+  </test> <!-- Ftest(failed) -->
+</suite> <!-- Failed suite [Fsuite] -->
